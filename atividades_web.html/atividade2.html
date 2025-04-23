@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio do Restaurante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #ffcc00;
+            font-weight: bold;
+        }
+        tfoot {
+            background-color: #ffcc00;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Cardápio do Restaurante</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do Prato</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Feijoada Completa</td>
+                <td>Feijão preto, carnes suínas, arroz, farofa e couve refogada</td>
+                <td>R$ 35,00</td>
+            </tr>
+            <tr>
+                <td>Risoto de Camarão</td>
+                <td>Arroz arbóreo cremoso com camarões e temperos especiais</td>
+                <td>R$ 42,00</td>
+            </tr>
+            <tr>
+                <td>Pizza Margherita</td>
+                <td>Molho de tomate, mussarela, manjericão e azeite de oliva</td>
+                <td>R$ 50,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Aceitamos pagamentos em dinheiro, cartão de crédito e débito</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
